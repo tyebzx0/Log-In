@@ -1,0 +1,88 @@
+body {
+  font-family: "JetBrains Mono", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right top, #2e2e2e, #636363, #202020, #2b2a2a);
+}
+
+.log .log__forms {
+  padding: 110px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+.log .log__title {
+  font-weight: 400;
+}
+.log .log__login {
+  color: #fff;
+  font-size: 55px;
+  margin-bottom: 35px;
+}
+.log .log__input {
+  padding: 15px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.log .log__input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.log .log__input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.log .log__input:focus {
+  border-color: #1d1d1d;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(36, 36, 36, 0.6);
+}
+.log .log__buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.log .log__button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+.log .log__button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.03);
+}
+.log .log__button--first {
+  font-weight: 500;
+  margin-top: 40px;
+}
+.log .log__button--second {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #fff;
+  margin-top: 30px;
+}
+.log .log__button-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+}
+.log .log__button-text:hover {
+  color: rgba(255, 255, 255, 0.6);
+}/*# sourceMappingURL=style.css.map */
