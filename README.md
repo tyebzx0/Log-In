@@ -16,7 +16,7 @@ Elegant button interactions for better UI feedback
 
 Live Demo:
 <div class="demo-link">
-    <a href="[https://your-website-link.com](https://tyebzx0.github.io/Log-In/)" class="demo-button" target="_blank">
+    <a href="https://tyebzx0.github.io/Log-In/" class="demo-button" target="_blank">
         👉 Check it here!
     </a>
 </div>
